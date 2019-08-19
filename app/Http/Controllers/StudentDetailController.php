@@ -18,7 +18,24 @@ class StudentDetailController extends Controller
 {
 
 	public function apiOfStudent(){
-		return student_master::all();
+
+		$stud=new student_master;
+		$students=$stud->paginate(50);
+
+		echo "<pre>";
+		var_dump($students);
+		echo "</pre>";
+
+		echo "<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>";
+
+		echo "<pre>";
+		print_r($students);
+		echo "</pre>";
+
+		echo $students->links();
+
+		// return student_master::all();
+
 	}
 
     public function showDetailOfStudent(){
