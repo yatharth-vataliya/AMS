@@ -12,8 +12,10 @@
 </head>
 <body background="{{ asset('images/mainbg1.jpg') }}" >
 	<main>
+		@if(!Request::is('login_form'))
 		@include('main.header')
 		@include('main.sidebar')
+		@endif
 		@yield('content')
 	</main>
 	<script src="{{ asset('assests/js/jquery.min.js') }}"></script>

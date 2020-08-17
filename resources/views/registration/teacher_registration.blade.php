@@ -19,13 +19,13 @@
 					<input type="text" class="form-control" name="teacher_name"  required>
 				</div>
 			</div>
-			<div class="form-group" style="padding:1.5rem;">
+			<div class="form-group" style="padding:1.5rem;margin-bottom:2.1rem;">
 				<label class="control-label col-md-4" for="teacher-address">Address</label>
 				<div class="col-md-4">
 					<textarea name="teacher_address" class="form-control" required></textarea>
 				</div>
 			</div>
-			<div class="form-group" style="padding:1.5rem;">
+			<div class="form-group" style="padding:1.5rem;margin-top:2em;">
 				<label class="control-label col-md-4" for="teacher-contact">Contact</label>
 				<div class="col-md-4">
 					<input type="number" class="form-control" name="teacher_contact" required>
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 			<div class="form-group" style="padding:1.5rem;">
-				<label class="control-label col-md-4" style="margin-left:5em;" for="teacher-password-confirmation">Confirm Password</label>
+				<label class="control-label col-md-4" style="margin-left:4.7em;" for="teacher-password-confirmation">Confirm Password</label>
 				<div class="col-md-4" style="margin-left:1.2em;">
 					<input type="password" class="form-control" name="teacher_password_confirmation"  required>
 				</div>

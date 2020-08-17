@@ -22,7 +22,7 @@
 @endif
 <div class="container">
 	<header id="header" class="page-header">
-			<h2>Login As Your First Step</h2>	
+			<h2>Login As Your First Step</h2>
 			<h3>Authority Is Great Responsibility</h3>
 	</header>
 	<form action="{{ route('checkuser') }}" method="POST" accept-charset="utf-8" class="form-horizontal">
