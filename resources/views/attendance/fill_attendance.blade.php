@@ -7,11 +7,6 @@ Fill Attendance
 @endsection
 
 @section('content')
-
-@include('main.header')
-
-@include('main.sidebar')
-
 <div class="col-md-10">
 	<h1>Please check mark in front of absent student name</h1>
 </div>

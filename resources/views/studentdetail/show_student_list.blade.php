@@ -8,9 +8,6 @@ Search Student Here
 
 @section('content')
 
-@include('main.header')
-
-@include('main.sidebar')
 @if($errors->any())
 	<div class="alert alert-danger">
 		@foreach($errors->all() as $error )
@@ -44,13 +41,13 @@ Search Student Here
 					@csrf
 					@method('PUT')
 					<input type="hidden" name="id" value="{{ $student->registration_number }}" >
-				<td><input type="submit" class="btn btn-primary" value="EDIT"></td>	
+				<td><input type="submit" class="btn btn-primary" value="EDIT"></td>
 				</form>
 				<form action="{{ route('delete_student') }}" method="POST">
 					@csrf
 					@method('DELETE')
 					<input type="hidden" name="id" value="{{ $student->registration_number }}" >
-				<td><input type="submit" class="btn btn-danger" value="DELETE"></td>	
+				<td><input type="submit" class="btn btn-danger" value="DELETE"></td>
 				</form>
 				<form action="{{ route('full_info') }}" method="POST">
 					@csrf
@@ -61,7 +58,7 @@ Search Student Here
 			@endforeach
 		</tbody>
 	</table>
-	</div>	
+	</div>
 </div>
 
 @endsection

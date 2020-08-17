@@ -11,10 +11,11 @@
 
 </head>
 <body background="{{ asset('images/mainbg1.jpg') }}" >
-
-		<main>
-			@yield('content')
-		</main>
+	<main>
+		@include('main.header')
+		@include('main.sidebar')
+		@yield('content')
+	</main>
 	<script src="{{ asset('assests/js/jquery.min.js') }}"></script>
 	<script src="{{ asset('assests/js/bootstrap.min.js') }}" type="text/javascript"></script>
 

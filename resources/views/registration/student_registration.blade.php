@@ -21,7 +21,7 @@
 			Class:-
 		</label>
 		<div class="col-md-4">
-			<input type="number" name="class" value="" class="form-control" id="" maxlength="3"  required> 
+			<input type="number" name="class" value="" class="form-control" id="" maxlength="3"  required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -29,7 +29,7 @@
 			Division:-
 		</label>
 		<div class="col-md-4">
-			<input type="text" name="division" value="" class="form-control" id="" required> 
+			<input type="text" name="division" value="" class="form-control" id="" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -37,7 +37,7 @@
 			Roll_no:-
 		</label>
 		<div class="col-md-4">
-			<input type="number" name="roll_no" value="" class="form-control" id="" maxlength="3" required> 
+			<input type="number" name="roll_no" value="" class="form-control" id="" maxlength="3" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -53,7 +53,7 @@
 			Date Of Birth:-
 		</label>
 		<div class="col-md-4">
-			<input type="date" name="birth_date" value="" class="form-control" id="" required> 
+			<input type="date" name="birth_date" value="" class="form-control" id="" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -70,7 +70,7 @@
 			Student Contact:-
 		</label>
 		<div class="col-md-4">
-			<input type="number" name="student_contact" value="" class="form-control" id="" maxlength="10" placeholder="optional"> 
+			<input type="number" name="student_contact" value="" class="form-control" id="" maxlength="10" placeholder="optional">
 		</div>
 	</div>
 	<div class="form-group">
@@ -78,7 +78,7 @@
 			Student Join Date:-
 		</label>
 		<div class="col-md-4">
-			<input type="date" name="student_join_date" value="" class="form-control" id="" required> 
+			<input type="date" name="student_join_date" value="" class="form-control" id="" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -86,7 +86,7 @@
 			Parents Name:-
 		</label>
 		<div class="col-md-4">
-			<input type="text" name="parents_name" value="" class="form-control" id="" maxlength="191" required> 
+			<input type="text" name="parents_name" value="" class="form-control" id="" maxlength="191" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -94,7 +94,7 @@
 			Parents Occupation:-
 		</label>
 		<div class="col-md-4">
-			<input type="text" name="parents_occupation" value="" class="form-control" id="" maxlength="191" placeholder="optional"> 
+			<input type="text" name="parents_occupation" value="" class="form-control" id="" maxlength="191" placeholder="optional">
 		</div>
 	</div>
 	<div class="form-group">
@@ -102,7 +102,7 @@
 			Parents Contact(Username):-
 		</label>
 		<div class="col-md-4">
-			<input type="number" name="parents_contact" value="" class="form-control" id="" maxlength="10" required> 
+			<input type="number" name="parents_contact" value="" class="form-control" id="" maxlength="10" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -110,7 +110,7 @@
 			Password:-
 		</label>
 		<div class="col-md-4">
-			<input type="password" name="password" value="" class="form-control" id="" required> 
+			<input type="password" name="password" value="" class="form-control" id="" required>
 		</div>
 	</div>
 	<div class="form-group">
@@ -118,7 +118,7 @@
 			Confirm Password:-
 		</label>
 		<div class="col-md-4">
-			<input type="password" name="password_confirmation" value="" class="form-control" id="" required> 
+			<input type="password" name="password_confirmation" value="" class="form-control" id="" required>
 		</div>
 	</div>
 	<div class="form-group">

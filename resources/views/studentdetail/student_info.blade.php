@@ -8,9 +8,6 @@ Student Information
 
 @section('content')
 
-@include('main.header')
-
-@include('main.sidebar')
 @if($errors->any())
 	<div class="alert alert-danger">
 		@foreach($errors->all() as $error )

@@ -10,9 +10,11 @@
 <link type="text/css" rel="stylesheet" href="{{ asset('assests/css/bootstrap.min.css') }}" >
 </head>
 <body background="{{ asset('images/mainbg1.jpg') }}">
+	@include('main.header')
+	@include('main.sidebar')
 	@yield('content')
 <script src="{{ asset('assests/js/jquery.min.js') }}"></script>
 <script src="{{ asset('assests/js/bootstrap.min.js') }}" type="text/javascript"></script>
-	
+
 </body>
 </html>

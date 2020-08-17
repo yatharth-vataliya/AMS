@@ -8,10 +8,6 @@ Search Student Here
 
 @section('content')
 
-@include('main.header')
-
-@include('main.sidebar')
-
 @if ($errors->any())
 <div class="alert alert-danger">
 	<ul>
@@ -40,7 +36,7 @@ Search Student Here
 				Date Of Birth:-
 			</label>
 			<div class="col-md-4">
-				<input type="date" name="birth_date" value="{{ $student->birth_date }}" class="form-control" id="" required> 
+				<input type="date" name="birth_date" value="{{ $student->birth_date }}" class="form-control" id="" required>
 			</div>
 		</div>
 		@if($student->gender=='male')
@@ -69,7 +65,7 @@ Search Student Here
 				Student Contact:-
 			</label>
 			<div class="col-md-4">
-				<input type="number" name="student_contact" value="{{ $student->student_contact }}" class="form-control" id="" maxlength="10" placeholder="optional"> 
+				<input type="number" name="student_contact" value="{{ $student->student_contact }}" class="form-control" id="" maxlength="10" placeholder="optional">
 			</div>
 		</div>
 		<div class="form-group">
@@ -77,7 +73,7 @@ Search Student Here
 				Student Join Date:-
 			</label>
 			<div class="col-md-4">
-				<input type="date" name="student_join_date" value="{{ $student->student_join_date }}" class="form-control" id="" required> 
+				<input type="date" name="student_join_date" value="{{ $student->student_join_date }}" class="form-control" id="" required>
 			</div>
 		</div>
 		<div class="form-group">
@@ -85,7 +81,7 @@ Search Student Here
 				Parents Name:-
 			</label>
 			<div class="col-md-4">
-				<input type="text" name="parents_name" value="{{ $student->parents_name }}" class="form-control" id="" maxlength="191" required> 
+				<input type="text" name="parents_name" value="{{ $student->parents_name }}" class="form-control" id="" maxlength="191" required>
 			</div>
 		</div>
 		<div class="form-group">
@@ -93,7 +89,7 @@ Search Student Here
 				Parents Occupation:-
 			</label>
 			<div class="col-md-4">
-				<input type="text" name="parents_occupation" value="{{ $student->parents_occupation }}" class="form-control" id="" maxlength="191" placeholder="optional"> 
+				<input type="text" name="parents_occupation" value="{{ $student->parents_occupation }}" class="form-control" id="" maxlength="191" placeholder="optional">
 			</div>
 		</div>
 		<div class="form-group">
@@ -101,7 +97,7 @@ Search Student Here
 				Parents Contact(Username):-
 			</label>
 			<div class="col-md-4">
-				<input type="number" name="parents_contact" value="{{ $student->parents_contact }}" class="form-control" id="" maxlength="10" required> 
+				<input type="number" name="parents_contact" value="{{ $student->parents_contact }}" class="form-control" id="" maxlength="10" required>
 			</div>
 		</div>
 		<div class="form-group">

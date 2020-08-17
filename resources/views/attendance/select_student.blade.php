@@ -8,10 +8,6 @@ Fill Attendance
 
 @section('content')
 
-@include('main.header')
-
-@include('main.sidebar')
-
 		@if ($errors->any())
     			<div class="alert alert-danger">
         			<ul>
@@ -37,8 +33,8 @@ Fill Attendance
 					<select name="subject" class="form-control">
 						@foreach($subject as $sub)
 							<option value="{{ $sub['subject_id'] }}">{{ $sub['subject_name'] }}</option>
-						@endforeach	
-					</select>	
+						@endforeach
+					</select>
 				</div>
 		</div>
 		<div class="form-group">
@@ -47,8 +43,8 @@ Fill Attendance
 					<select name="division" class="form-control">
 						@foreach($division as $div)
 							<option value="{{ $div['division_id'] }}">{{ $div->division_name }}</option>
-						@endforeach	
-					</select>	
+						@endforeach
+					</select>
 				</div>
 		</div>
 		<div class="form-group">
@@ -57,8 +53,8 @@ Fill Attendance
 					<select name="room" class="form-control">
 						@foreach($room as $rom)
 							<option value="{{ $rom['room_id'] }}">{{ $rom['room_name'] }}</option>
-						@endforeach	
-					</select>	
+						@endforeach
+					</select>
 				</div>
 		</div>
 		@if(!empty(session('teacher_id')))
