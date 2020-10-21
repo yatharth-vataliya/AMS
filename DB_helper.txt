@@ -1,0 +1,29 @@
+package com.example.sqlite_demo;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.widget.Toast;
+
+public class Db_helper extends SQLiteOpenHelper {
+
+	public Db_helper(Context context) {
+		super(context, "university", null, 1);
+	}
+
+	@Override
+	public void onCreate(SQLiteDatabase db) {
+		// TODO Auto-generated method stub
+		db.execSQL("create table student (_id integer,name varchar(100),city varchar(100));");
+		db.execSQL("insert into student values (101,'krushna','dwaraka')");
+		db.execSQL("insert into student values (102,'ram','ayodhya')");
+	}
+
+	@Override
+	public void onUpgrade(SQLiteDatabase db, int i, int i1) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

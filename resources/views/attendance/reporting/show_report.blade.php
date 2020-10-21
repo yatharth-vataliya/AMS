@@ -44,13 +44,13 @@
 			<th>Roll No</th>
 			<th>Name</th>
 		</tr>
-	@foreach($absents as $att)		
+	@foreach($absents as $att)
 		<tr>
 			<td >{{ $att->roll_no }}</td>
 			<td >{{ $att['student_name'] }}</td>
 		</tr>
-	@endforeach	
-	
+	@endforeach
+
 	</table>
 </div>
 
@@ -63,12 +63,12 @@
 			<th>Roll No</th>
 			<th>Name</th>
 		</tr>
-	@foreach($presents as $att)		
+	@foreach($presents as $att)
 		<tr>
 			<td >{{ $att['roll_no'] }}</td>
 			<td >{{ $att['student_name'] }}</td>
 		</tr>
-	@endforeach	
+	@endforeach
 
 	</table>
 </div>
@@ -78,4 +78,3 @@
 </div>
 
 @endsection
-
